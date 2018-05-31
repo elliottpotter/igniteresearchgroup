@@ -1,0 +1,48 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bourbon";
+$bezier: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+$time: 300ms;
+
+$base-font-family: "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+
+.explanation {
+  // text-align: center;
+  margin: 50px
+}
+
+.fancy {
+  font-family: $base-font-family;
+}
+
+.welcome-message {
+  float: left;
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+.headery {
+  // padding-bottom: 50px;
+  text-align: center;
+  background-color: #d8e2dc85;
+  width: 100% !important;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.typeform-widget {
+  text-align: center;
+  display: block;
+  margin: 25px 0px 0px 0px;
+}

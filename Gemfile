@@ -19,6 +19,7 @@ gem 'bourbon'
 gem 'faker'
 gem 'file-utils'
 gem 'haml-rails'
+gem 'jquery-rails'
 
 group :development, :test do
   gem 'byebug', platform: :mri
