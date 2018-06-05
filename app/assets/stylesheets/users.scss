@@ -16,15 +16,14 @@ body {
 
 .explanation {
   // text-align: center;
-  margin: 50px
+  margin: 50px;
+  p {
+    font-size: 16px;
+  }
 }
 
 .no-margin {
   margin-top: 10px;
-}
-
-.fancy {
-  font-family: $base-font-family;
 }
 
 .welcome-message {

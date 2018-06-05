@@ -1,0 +1,68 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require style
+ */
+
+ @import "bourbon";
+ $bezier: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+ $time: 300ms;
+
+ $base-font-family: "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+ body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
+ }
+
+ .no-margin {
+   margin-top: 10px;
+ }
+
+ h1, h2, h3, h4 {
+   font-family: $base-font-family;
+   color: #7d7d7d;
+   font-weight: 300;
+ }
+
+ .headery {
+   // padding-bottom: 50px;
+   text-align: center;
+   background-color: #d8e2dc85;
+   width: 100% !important;
+   margin-left: 0;
+   margin-right: 0;
+ }
+
+ a, a:hover, a:active, a:visited { color: white; }
+
+ .btn-info {
+   font-size: 20px;
+   padding: 15px;
+   margin: 20px 20px 20px 37%;
+   text-align: center;
+   color: white;
+ }
+
+ .success-form {
+   margin: 50px 0 50px 0;
+   padding: 0 50px 50px 50px;
+   border-left: 7px solid #c9d2d5;
+   // text-align: center;
+   .spacing {
+     margin-right: 15px;
+   }
+ }
