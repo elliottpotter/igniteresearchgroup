@@ -1,3 +1,4 @@
+%script{:src => "https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"}
 
 .container
   .row
@@ -24,9 +25,10 @@
           Once your account is verified, copy our PayPal address below to request your $40
           %br
           %br
-          riley@shipt.com
+          %hr
           %span.spacing
-          %a.btn.btn-success.d-block.mx-auto.copy-email-button Click to copy this email
+          %input.email-input{id: 'foo', value: "riley@shipt.com"}
+          %button.btn.btn-success.d-block.mx-auto.copy-email-button{"data-clipboard-target" => "#foo"} Click to copy this email
           %br
           %hr
           Click the link below to navigate to PayPal.com, and paste our address in the text field to request your $40!

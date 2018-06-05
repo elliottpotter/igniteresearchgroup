@@ -1,4 +1,6 @@
 window.onload = function(){
+  new ClipboardJS('.btn');
+
   function copyTextToClipboard(text) {
     var textArea = document.createElement("textarea");
 
